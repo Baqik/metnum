@@ -41,10 +41,10 @@ max_iter = 100
 solusi = metode_newton_raphson(tebakan_awal, toleransi, max_iter)
 
 # Menampilkan solusi akhir
-    if solusi is not None:
-    print(f"Solusi akhir: x = {solusi}")
-    else:
-    print("Metode Newton-Raphson tidak konvergen.")
+if solusi is not None:
+print(f"Solusi akhir: x = {solusi}")
+else:
+print("Metode Newton-Raphson tidak konvergen.")
 
 \python\
 
@@ -88,7 +88,7 @@ b = -4 - 8
 solusi = cari_solusi_persamaan_linier(a, b)
 
 # Menampilkan solusi
-    print(f"Solusi dari persamaan {a}x + ({b}) = 0 adalah x = {solusi}")
+print(f"Solusi dari persamaan {a}x + ({b}) = 0 adalah x = {solusi}")
 
 \python\
 

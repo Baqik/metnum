@@ -48,7 +48,7 @@ solusi = metode_newton_raphson(tebakan_awal, toleransi, max_iter)
 
 \python\
 
-Output program diatas : x = 1.3247179572447898
+    Output program diatas : x = 1.3247179572447898
 
 
 

@@ -1,5 +1,5 @@
 # UTS-METODE-NUMERIK
-UTS METODE NUMERIk
+UTS METODE NUMERIK
 1.	Persamaan non linier yang diberikan adalah:
 
 3 + x^3 - x = 4
@@ -41,9 +41,9 @@ max_iter = 100
 solusi = metode_newton_raphson(tebakan_awal, toleransi, max_iter)
 
 # Menampilkan solusi akhir
-if solusi is not None:
+    if solusi is not None:
     print(f"Solusi akhir: x = {solusi}")
-else:
+    else:
     print("Metode Newton-Raphson tidak konvergen.")
 
 \python\
@@ -75,7 +75,7 @@ Program untuk solusi diatas :
 \python\
 
 
-def cari_solusi_persamaan_linier(a, b):
+    def cari_solusi_persamaan_linier(a, b):
     # Isolasi x: ax + b = 0
     x = -b / a
     return x
@@ -88,7 +88,7 @@ b = -4 - 8
 solusi = cari_solusi_persamaan_linier(a, b)
 
 # Menampilkan solusi
-print(f"Solusi dari persamaan {a}x + ({b}) = 0 adalah x = {solusi}")
+    print(f"Solusi dari persamaan {a}x + ({b}) = 0 adalah x = {solusi}")
 
 \python\
 

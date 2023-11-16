@@ -17,13 +17,13 @@ Program untuk solusi diatas:
 \python\
 
 
-def fungsi(x):
+    def fungsi(x):
     return x**3 - x - 1
 
-def turunan_fungsi(x):
+    def turunan_fungsi(x):
     return 3*x**2 - 1
 
-def metode_newton_raphson(tebakan_awal, toleransi, max_iter):
+    def metode_newton_raphson(tebakan_awal, toleransi, max_iter):
     x = tebakan_awal
     for i in range(max_iter):
         x_baru = x - fungsi(x) / turunan_fungsi(x)

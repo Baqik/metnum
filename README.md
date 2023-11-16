@@ -92,4 +92,4 @@ solusi = cari_solusi_persamaan_linier(a, b)
 
 \python\
 
-Output program diatas :Solusi dari persamaan 2x + (-12) = 0 adalah x = 6
+    Output program diatas :Solusi dari persamaan 2x + (-12) = 0 adalah x = 6

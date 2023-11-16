@@ -14,7 +14,7 @@ Solusi akhir: x = 1.3247179572447898
 Program untuk solusi diatas:
 
 
-\python\
+python
 
 
     def fungsi(x):
@@ -46,7 +46,7 @@ print(f"Solusi akhir: x = {solusi}")
 else:
 print("Metode Newton-Raphson tidak konvergen.")
 
-\python\
+python
 
     Output program diatas : x = 1.3247179572447898
 
@@ -72,7 +72,7 @@ Jadi, solusi dari persamaan linier 2x - 4 = 8 adalah x = 6.
 
 Program untuk solusi diatas :
 
-\python\
+python
 
 
     def cari_solusi_persamaan_linier(a, b):
